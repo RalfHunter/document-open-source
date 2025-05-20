@@ -5,7 +5,7 @@
         "cor":      "#B6D5FF",
         "titulo":   "Chromium",
         "descricao": "Projeto de navegador de código aberto que serve de base para o Google Chrome e outros navegadores modernos.",
-        "tecnologia": [
+        "tecnologias": [
             "Java", "Web", "C++"
         ],
         "link":"/chromium"
@@ -16,7 +16,7 @@
         "cor":      "#C5F3FF",
         "titulo":   "React",
         "descricao": "Biblioteca JavaScript para construir interfaces de usuário reativas, criada pelo Facebook e usada em milhares de aplicações web. ",
-        "tecnologia": [
+        "tecnologias": [
             "Typescript", "JSX", "Web"
         ],
         "link":"/react"
@@ -27,7 +27,7 @@
         "cor":      "#F6C29D",
         "titulo":   "Ubuntu",
         "descricao": "Distribuição Linux baseada em Debian, voltada para usabilidade, segurança e atualização frequente.",
-        "tecnologia": [
+        "tecnologias": [
             "C", "Python", "Bash"
         ],
         "link":"/ubuntu"
@@ -38,7 +38,7 @@
         "cor":      "#F7B7AD",
         "titulo":   "Git",
         "descricao": "Sistema de controle de versões distribuído, eficiente para rastrear mudanças em projetos de software. ",
-        "tecnologia": [
+        "tecnologias": [
             "C", "Shell Script", "Perl"
         ],
         "link":"/git"
@@ -49,7 +49,7 @@
         "cor":      "#B6F5D5",
         "titulo":   "Android",
         "descricao": "Sistema operacional móvel desenvolvido pelo Google, usado em bilhões de dispositivos ao redor do mundo.",
-        "tecnologia": [
+        "tecnologias": [
             "Java", "Kotlin", "C++"
         ],
         "link":"/android"
@@ -60,7 +60,7 @@
         "cor":      "#B9DBFD",
         "titulo":   "Typescript",
         "descricao": "Superset do JavaScript que adiciona tipagem estática e recursos modernos para desenvolvimento robusto.",
-        "tecnologia": [
+        "tecnologias": [
             "Javascript", "Typescript", "Node"
         ],
         "link":"/typescript"
@@ -71,7 +71,7 @@
         "cor":      "#CECECE",
         "titulo":   "Tensorflow",
         "descricao": "Biblioteca de código aberto do Google para computação numérica e aprendizado de máquina com redes neurais.",
-        "tecnologia": [
+        "tecnologias": [
             "Python", "CUDA", "C++"
         ],
         "link":"/tensorflow"
@@ -82,7 +82,7 @@
         "cor":      "#ADF5BF",
         "titulo":   "Docusaurus",
         "descricao": "Gerador de sites estáticos focado em documentação técnica, criado pelo Facebook.",
-        "tecnologia": [
+        "tecnologias": [
             "Javascript", "React", "Markdown"
         ],
         "link":"/docusaurus"

@@ -22,3 +22,157 @@
     justify-content: center;
     align-items: center;
 }
+
+.search-container .box-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-color: #CECECE;
+    height: 50px;
+    width: 688px;
+    margin: 20px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+input {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    width: inherit;
+}
+.box-input .search-button {
+    height: 24px;
+    width: 24px;
+    margin-right: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+    
+}
+
+.box-input input::placeholder {
+    color: #CECECE;
+}
+.box-input input{
+    outline: none;
+    font-size: 20px;
+}
+.search-button:hover {
+    cursor: pointer;
+}
+
+
+.search-button img {
+    height: inherit;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+}
+
+.cards .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 495px;
+    width: 332px;
+    border: 1px solid #CECECE;
+    border-radius: 8px 8px 8px 8px;
+}
+
+.card-topo .icone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B6D5FF;
+    height: 185px;
+    width: 332px;
+    border-radius: 7px 7px 0px 0px;
+}
+
+.margin{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.card-topo h4 {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.card-topo p{
+    font-size: 16px;
+    color: #2A2B2E;
+}
+
+.card-base .sub-cards {
+    display: flex;
+    gap: 8px;
+    /* background-color: red; */
+}
+
+.card-base .botao {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.card-base .botao a{
+    padding: 8px 42px 8px 42px;
+    text-decoration: none;
+    border: 1px solid #CECECE;
+    border-radius: 4px;
+    color: #1C73E8;
+    font-weight: 700;
+}
+
+.sub-cards > * {
+    border: 1px solid #5F6369;
+    /* padding: 10px; */
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #5F6369;
+}
+
+.card-base .botao a:hover {
+    background-color: #1C73E8;
+    color: white;
+} 
+
+.footer {
+    margin-top: 150px;
+}
+
+.texto-rodape, .texto-rodape a {
+    background-color: #202124;
+    color: white;
+}
+
+.texto-rodape {
+    padding: 20px;
+    padding-top: 30px;
+    line-height: 40px;
+    font-size: 16px;
+    padding-bottom: 120px;
+}
+.texto-rodape p:nth-child(2) a:hover, 
+.texto-rodape p:nth-child(5) a:hover{
+    background-color:#EADD67CC ;
+    border-radius: 3px;
+    color: #202124;
+    padding: 2px 6px 2px 6px;
+}
+
+.footer-logos{
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    background-color: #38393F;
+}
